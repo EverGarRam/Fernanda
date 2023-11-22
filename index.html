@@ -23,6 +23,7 @@
         <a href="#cuatro">Tabla de animes</a>
         <a href="#cinco">Slider</a>
         <a href="#seis">Carrusel</a>
+        <a href="#ocho">Formulario</a>
         <a href="https://www.facebook.com/ever.garcia.3323/">Creador</a> 
     </nav>
     <main>
@@ -502,5 +503,24 @@
                 </div>
               </header>
               <div class="contenedor">
-                <img class="animacion-imagen" src="Ave fenix.jpg">
+                <img class="animacion-imagen" src="Ave fenix.jpg" width="200" height="250">
+                </div>
+                <header>
+                <div class="divTitulo">
+                  <h1 id="ocho">Formulario</h1>
+              </div>
+              </header>
+                <form action="procesar_formulario.php" method="post">
+
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+              
+                  <label for="email">Correo Electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+              
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              
+                  <button type="submit">Enviar</button>
+                </form>
 </html>
